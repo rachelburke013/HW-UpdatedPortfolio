@@ -1,6 +1,6 @@
 #mainNav {
   min-height: 56px;
-  background-color: #fff;
+  background:#eaeaea;
 }
 
 .nav-item {
@@ -36,7 +36,7 @@
     color:  #4678ba
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background:#eaeaea;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color:  #4678ba;
@@ -59,27 +59,7 @@
   }
 }
 
-.masthead {
-  position: center;
-  width: 100%;
-  height: auto;
-  min-height: 35rem;
 
-}
-
-.masthead h1 {
-  font-family: 'Varela Round';
-  font-size: 2.5rem;
-  line-height: 2.5rem;
-  letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-  -webkit-text-fill-color: transparent;
-}
-
-.masthead h2 {
-  max-width: 20rem;
-  font-size: 1rem;
-}
 
 @media (min-width: 768px) {
   .masthead h1 {
@@ -88,21 +68,6 @@
   }
 }
 
-@media (min-width: 992px) {
-  .masthead {
-    height: 100vh;
-    padding: 0;
-  }
-  .masthead h1 {
-    font-size: 6.5rem;
-    line-height: 6.5rem;
-    letter-spacing: 0.8rem;
-  }
-  .masthead h2 {
-    max-width: 30rem;
-    font-size: 1.25rem;
-  }
-}
 
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
@@ -245,4 +210,10 @@ a:focus, a:hover {
 
 footer {
   padding: 5rem 0;
+}
+
+
+.masthead {
+  text-align: center;
+  height: 600px;
 }
